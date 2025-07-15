@@ -30,7 +30,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col max-w-[1440px] mx-auto">
+    <div className="flex flex-col max-w-[1440px] w-full mx-auto">
       <section><Header isDark={isDark} toggleTheme={toggleTheme}/></section>
       <section><Myskills /></section>
       <section><Aboutme /></section>

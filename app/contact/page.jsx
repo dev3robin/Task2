@@ -7,11 +7,11 @@ import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg
 
 const Contact = () => {
   return (
-    <div className='relative bg-[var(--bgColor)]'>
+    <div className='relative bg-[var(--bgColor)] overflow-hidden'>
       <div className='absolute top-0 left-0 h-full w-full -z-1'>
         <img className='rotate-[30deg] w-full h-full object-cover opacity-10' src="/bg-img/headerbg.png" alt="bg" />
       </div>
-      <div className='flex flex-col lg:flex-row gap-10 mx-[15px] p-[clamp(20px,5vw,50px)] relative z-10'>
+      <div className='flex flex-col lg:flex-row gap-10 mx-[15px] my-6 relative z-10'>
         <div className='text-[var(--text)] flex-1'>
           <div className='flex items-center gap-2 mb-4'>
             <DownBtn />
