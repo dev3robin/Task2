@@ -12,7 +12,7 @@ const Header = ({isDark,toggleTheme}) => {
           <img src="/bg-img/headerbg.png" alt="" className='w-full h-full' />
         </div>
 
-        <nav className='h-[114px] px-[15px] overflow-hidden bg-red-100 rounded-bl-3xl rounded-br-3xl backdrop-blur-3xl'>
+        <nav className='h-[114px] px-[15px] overflow-hidden rounded-bl-3xl rounded-br-3xl backdrop-blur-3xl'>
           <div className='flex items-center justify-between py-[28px] px-[35px] '>
             <p className="custom-heading text-[clamp(16px,3vw,34px)] leading-[1.1] font-bold uppercase">
               devlop.me
